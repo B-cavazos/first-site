@@ -1,5 +1,5 @@
 *{
-    margin:0px;
+    margin: 0px;
     padding: 0px;
 }
 
@@ -26,10 +26,11 @@
 
 .exhibit-header{
     width: 100%;
-    height: 500px;
-    background-color: purple;
-    background-image: (-);
-      margin-top: 100px;
+    height: 600px;
+    background-color: rgb(252,253,255);
+    background-image: url(../img/exhibit-banner.png);
+    margin-top: 50px;
+    background-position: bottom; 
 }
 
 /* <!---------------------- End of Main -----------------> */
@@ -37,8 +38,8 @@
 .exhibit-sections{
     width: 100%;
     height: 600px;
-    background-color: rgb(243,245,247);
-    margin-top: 3px;
+    background-color: rgb(252,253,255);
+    /* margin-top: 3px; */
 
 }
 
@@ -51,24 +52,45 @@
     margin-top: 11px;
 }
 
-/* .exhibit-text{
-    background-color: chocolate;
-}
-
-.exhibit-image{
-    background-color: darkgoldenrod;
-}
+#exhibit-section1{}
 
 #exhibit-image1{
-    background-color: darkmagenta;
+    background-image: url(../img/Exhibitgraphics-01.svg);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
 
-} */
+}
 
+ /* #exhibit-text1{} */
 
+ #exhibit-section2{
+    background-color: rgb(243,245,247);
+ }
+
+ /* #exhibit-text2{} */
+
+ #exhibit-image2{
+    background-image: url(../img/Exhibitgraphics-02.svg);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ /* #exibit-section3{} */
+
+ #exhibit-image3{
+    background-image: url(../img/Exhibitgraphics-03.svg);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+ /* #exhibit-text3{} */
 /* <!---------------------- End of Section --------------> */
 
 .footer{
-    background-color: rgb(213,33,215);
+    background-color: rgb(32,42,66);
     height: 50px;
     clear: both;
 }
