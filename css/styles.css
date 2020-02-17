@@ -47,17 +47,55 @@
     display: inline-block;
     color: rgb(161,219,107);
 }
-}
+
 /* <!--------------------- End of Nav -------------------> */
+
+.carousel{
+height: 600px;
+background-color: rosybrown;
 
 }
 
 /* <!---------------------- End of Main -----------------> */
 
+.info-section{
+height: 550px;
+background-color: sandybrown;
+margin: 50px,0px,25px,0px;
+}
 
+.hours{
 
+}
 
-/* <!---------------------- End of Section --------------> */
+.news{
+
+}
+
+.address{
+
+}
+
+/* <!---------------------- End of Section1 --------------> */
+
+.weather-box{
+
+}
+/* <!---------------------- End of Section2 --------------> */
+.video-box{
+    background-color: black;
+    padding-top: 25px;
+    
+}
+
+.video-feed{
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+    background-color: black;
+}
+
+/* <!---------------------- End of Section3 -----------------> */
 
 .footer{
     background-color: rgb(32,42,66);
