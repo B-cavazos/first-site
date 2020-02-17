@@ -12,25 +12,49 @@
 
 .nav-bar{
     width: 100%;
-    height: 100px;
-    background-color: rgb(32,42,66);
+    height: 75px;
+    background-color: rgba(1,35,63,.6);
     position:fixed;
     top:0;
     z-index: 1
 }
 
 .logo{
-    height: 100%;
+    height: 70px;
 }
+
+.nav-list{
+    width: auto;
+    position: relative;
+    float: right;
+    margin-top: 31px;
+    margin-right: 618px;
+}
+
+.nav-list-item{
+    display: inline-block;
+    margin-left: 66px;
+    width: 150px;
+    height: 32px;
+    padding-top: 8px;
+    color: WHITE;
+    text-align: center;
+}
+
+.nav-list-item:hover{
+    display: inline-block;
+    color: rgb(161,219,107);
+}
+
 /* <!--------------------- End of Nav -------------------> */
 
 .exhibit-header{
     width: 100%;
-    height: 600px;
-    background-color: rgb(30,70,131);
+    height: 503px;
+    background-color: rgb(30,78,131);
     background-image: url(../img/exhibit-banner.png);
-    margin-top: 50px;
-    background-position: bottom; 
+    margin-top: 0px;
+    background-position: bottom;
 }
 
 .hero-text{
@@ -47,8 +71,9 @@
 .exhibit-sections{
     width: 100%;
     height: 600px;
-    background-color: rgb(30,70,131);
-    /* margin-top: 3px; */
+    background-color: rgb(30,78,131);
+    position: relative;
+    top: -61px;
 
 }
 
@@ -68,7 +93,7 @@
 
 #exhibit-image1{
     background-image: url(../img/Exhibitgraphics-01.svg);
-    background-size: 500px;
+    background-size: 540px;
     background-repeat: no-repeat;
     background-position: center;
 
@@ -84,7 +109,7 @@
  }
 
  #exhibit-section2{
-    background-color: rgb(243,245,247);
+    background-color: rgb(252,253,255);
  }
 
  .exhibit-text2{
@@ -93,11 +118,12 @@
     width: 80%;
     font-size: 14pt;
     margin: auto;
+    color: rgb(32,42,66);
  }
 
  #exhibit-image2{
     background-image: url(../img/Exhibitgraphics-02.svg);
-    background-size: 500px;
+    background-size: 540px;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -106,7 +132,7 @@
 
  #exhibit-image3{
     background-image: url(../img/Exhibitgraphics-03.svg);
-    background-size: 500px;
+    background-size: 540px;
     background-repeat: no-repeat;
     background-position: center;
  }
@@ -117,14 +143,21 @@
     width: 80%;
     font-size: 14pt;
     margin: auto;
-    color: white;
+    color: rgb(252,253,255);
  }
 /* <!---------------------- End of Section --------------> */
 
 .footer{
     background-color: rgb(32,42,66);
     height: 50px;
-    clear: both;
+    color: rgb(243,245,247);
+
+}
+
+.fab{
+    margin-right: 15px;
+    font-size: 2em;
+    color: rgb(161,219,107);
 }
 
 .h3-mada{
