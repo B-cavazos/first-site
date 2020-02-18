@@ -113,10 +113,11 @@ margin-right: 5px;
 .crowd-overlay{
     background-image: url(../img/VideoCrowdOverlay.svg);
     background-repeat: no-repeat;
+    background-position: bottom;
     width: 1200px;
-    height: 700px;
+    height: 248px;
     position: absolute;
-    bottom: -94px;
+    bottom: -1px;
     right: 352px;
 }
 
