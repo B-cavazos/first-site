@@ -60,22 +60,36 @@ background-color: rosybrown;
 
 .info-section{
 height: 550px;
+width: 100%;
 background-color: sandybrown;
 margin: 50px,0px,25px,0px;
+position: relative;
+text-align: center;
+white-space: nowrap;
 }
 
-.hours{
-
+.info-box{
+    height:500px;
+    width: 400px;
+    background-color: firebrick;
+    margin: 25px 0px 10px 0px;
+    display:inline-block;
 }
 
-.news{
-
+#hours{
+    width: 250px;
+    margin-right: 0px;
 }
 
-.address{
-
+#news{
+width: 600px;
+margin-left: 5px;
+margin-right: 5px;
 }
 
+#address{
+
+}
 /* <!---------------------- End of Section1 --------------> */
 
 .weather-box{
@@ -85,6 +99,7 @@ margin: 50px,0px,25px,0px;
 .video-box{
     background-color: black;
     padding-top: 25px;
+    position: relative;
     
 }
 
@@ -93,6 +108,16 @@ margin: 50px,0px,25px,0px;
     width: 1200px;
     margin: auto;
     background-color: black;
+}
+
+.crowd-overlay{
+    background-image: url(../img/VideoCrowdOverlay.svg);
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 700px;
+    position: absolute;
+    bottom: -94px;
+    right: 352px;
 }
 
 /* <!---------------------- End of Section3 -----------------> */
