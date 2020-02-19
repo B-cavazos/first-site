@@ -15,20 +15,17 @@
     height: 75px;
     background-color: rgba(1,35,63,1);
     position:absolute;
-    /* top:0;
-    z-index: 1 */
 }
 
 .logo{
     height: 70px;
+    float: right;
 }
 
 .nav-list{
-    width: auto;
-    position: relative;
-    float: right;
-    margin-top: 31px;
-    margin-right: 618px;
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
 }
 
 .nav-list-item{
@@ -185,4 +182,3 @@ h3{
     font-family: 'mada',sans-serif;
 }
 
-/* I cant get Mada font to display */
