@@ -7,50 +7,46 @@
 
 .body{
     margin: 0px;
-    /* font-family: 'roboto', sans-serif; */
 }
 
 .h1{
     font-family: 'Mada', sans-serif;
 }
 
-/* .h3{
-    font-family: 'Mada', sans-serif !important;
-    font-weight: 400;
-} */
 /* <!--------------------- End of BODY------------------> */
+
+.body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
 
 .nav-bar{
     width: 100%;
-    height: 75px;
+    height: 36px;
     background-color: rgba(1,35,63,1);
     position:absolute;
-    /* top:0;
-    z-index: 1 */
 }
 
 .logo{
-    height: 70px;
+    height: 36px;
+    float: right;
 }
 
 .nav-list{
-    width: auto;
-    position: relative;
-    float: right;
-    margin-top: 31px;
-    margin-right: 618px;
+    text-align:center;
+    font-size: 23px;
 }
 
 .nav-list-item{
     display: inline-block;
-    margin-left: 66px;
+    margin: 0px 90px 0px 90px;
     width: 150px;
     height: 32px;
-    padding-top: 8px;
     color: WHITE;
     text-align: center;
     font-family: 'Mada', sans-serif;
     font-weight: 700;
+    font-size: 14px;
 }
 
 .nav-list-item:hover{
@@ -97,14 +93,14 @@ margin-left: 5px;
 margin-right: 5px;
 }
 
-#address{
+/* #address{
 
-}
+} */
 /* <!---------------------- End of Section1 --------------> */
 
-.weather-box{
+/* .weather-box{
 
-}
+} */
 /* <!---------------------- End of Section2 --------------> */
 .video-box{
     background-color: black;
