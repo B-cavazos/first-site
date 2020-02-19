@@ -156,28 +156,11 @@ h3{
 
  .exhibit-text3{
         position: relative;
-    top: 208px;
+    top: 200px;
     width: 80%;
     font-size: 14pt;
     margin: auto;
     color: rgb(252,253,255);
  }
 /* <!---------------------- End of Section --------------> */
-
-.footer{
-    background-color: rgb(32,42,66);
-    height: 50px;
-    color: rgb(243,245,247);
-
-}
-
-.fab{
-    margin-right: 15px;
-    font-size: 2em;
-    color: rgb(161,219,107);
-}
-
-.h3-mada{
-    font-family: 'mada',sans-serif;
-}
 

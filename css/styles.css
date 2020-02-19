@@ -7,18 +7,10 @@
 
 .body{
     margin: 0px;
-}
-
-.h1{
-    font-family: 'Mada', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* <!--------------------- End of BODY------------------> */
-
-.body{
-    margin: 0px;
-    font-family: 'Roboto', sans-serif;
-}
 
 .nav-bar{
     width: 100%;
@@ -65,21 +57,20 @@ background-color: rosybrown;
 /* <!---------------------- End of Main -----------------> */
 
 .info-section{
-height: 550px;
+height: 500px;
 width: 100%;
-background-color: sandybrown;
-margin: 50px,0px,25px,0px;
+background-color: rgb(243,245,247);
 position: relative;
 text-align: center;
 white-space: nowrap;
 }
 
 .info-box{
-    height:500px;
-    width: 400px;
-    background-color: firebrick;
-    margin: 25px 0px 10px 0px;
+    height:375px;
+    background-color: rgb(243,245,247);
+    margin: 50px 0px 25px 0px;
     display:inline-block;
+    vertical-align: top;
 }
 
 #hours{
@@ -88,19 +79,58 @@ white-space: nowrap;
 }
 
 #news{
-width: 600px;
+width: 500px;
 margin-left: 5px;
 margin-right: 5px;
 }
 
-/* #address{
+.info-titles {
+    font-family: 'Mada', sans-serif;
+    Font-size: 55px;
+    font-weight: 700;
+    text-align: left;
+    margin: 25px 0px 10px 0px;
+}
 
-} */
+hr { 
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+    margin-left: 0;
+    margin-right: 0;
+    align: left;
+    width:90%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(161,219,107);
+  }
+
+  .info-sub-headers{
+    font-family: 'Mada', sans-serif;
+    Font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .info-whats-new{
+      margin-left: 40px;
+  }
+
+  .li-events{
+    margin-left: 20px;
+    font-family: 'roboto', sans-serif;
+    Font-size: 15px;
+    text-align: left;
+  }
+
+  #address{
+      font-size: 20px;
+  }
+
+
+
 /* <!---------------------- End of Section1 --------------> */
 
-/* .weather-box{
-
-} */
 /* <!---------------------- End of Section2 --------------> */
 .video-box{
     background-color: black;
@@ -130,22 +160,23 @@ margin-right: 5px;
 /* <!---------------------- End of Section3 -----------------> */
 
 .footer{
-    background-color: rgb(32,42,66);
-    height: 50px;
-    color: rgb(243,245,247);
+    height: 36px;
+    background-color: rgba(1,35,63,1);
+    color: #f3f5f7;
     clear: both;
+    text-align: center;
 
 }
 
 .fab{
     margin-right: 15px;
-    font-size: 2em;
+    font-size: 1em;
     color: rgb(161,219,107);
 }
 
 .input, .social, .copy{
     display: inline-block;
-    width: 33%;
+    height:36px;
     text-align: center;
-    margin-top: 11px;
+    margin:5px 150px 5px 200px;
 }
