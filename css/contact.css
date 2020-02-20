@@ -8,9 +8,10 @@
 .body{
     margin: 0px;
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(243,245,247);
 }
 
-.nav-bar{
+/* .nav-bar{
     width: 100%;
     height: 36px;
     background-color: rgba(1,35,63,1);
@@ -42,44 +43,93 @@
 .nav-list-item:hover{
     display: inline-block;
     color: rgb(161,219,107);
-}
+} */
 
 /* <!--------------------- End of Nav -------------------> */
 
-.hero-contact{
+.ticket-header{
     width: 100%;
-    height:900px;
-    background-color: rgba(163,44,213,.4);
+    height: 350px;
+    background-color: rgb(243,245,247);
+    margin-top: 0px;
+    background-image: url(../img/exhibit-banner.png);
+    background-position: bottom;
+}
+
+h1{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-family: 'Mada', sans-serif;
+    font-weight: 400;
+    font-size: 75pt;
+    letter-spacing: 3px;
+    color: white;
 }
 
 .contact-container{
-    width: 900px;
-    height: 800px;
-    position: relative;
-    background-color: rgb(161,219,107);
+    width: 100%;
+    height: 700px;
+    background-color: rgb(243,245,247);
+    text-align: center;
 }
 
 .contact-map, .contact-form{
 
     position: relative;
-    display: inline-block;
+    display: block;
     width: 410px;
     top: 125px;
-    left: 30%;
-    border: 3px solid rgba(163,44,213,.4);
+    border: solid 3px rgb(30,78,131);
 }
 
 .contact-map{
-    margin-bottom: 55px;
-    padding: 10px 7px 10px 10px;
+    top: -655px;
+    left: 487px;
+    margin-left: 25px;
 }
 
 .contact-form{
-    left: 500px;
-    top: -260px;
-    padding: 15px 7px 10px 12px;
+    left: 50px;
+    top: 5px;
+    width: 450px;
+
 }
 
+.cuttlefish{
+    background-color: salmon;
+    display: inline-block;
+    position: relative;
+    height: 374px;
+    width: 467px;
+    top: -665px;
+    left: 382px;
+}
+
+.hotels,.dining{
+    height: 320px;
+    width: 400px;
+    border: solid 3px rgb(30,78,131);
+}
+
+.hotels{
+    background-color: slategray;
+    display: inline-block;
+    position: relative;
+    top: -1012px;
+    left: 422px;
+}
+
+.dining{
+    background-color: wheat;
+    display: inline-block;
+    position: relative;
+    top: -677px;
+    left: 12px;
+}
+.goto{
+    top:-2000px;
+}
 /* <!--------------------- End of Body -------------------> */
 
 .footer{
@@ -88,6 +138,8 @@
     color: #f3f5f7;
     clear: both;
     text-align: center;
+    margin-top: 0px;
+    padding: 0px;
 
 }
 
