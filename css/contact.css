@@ -58,7 +58,7 @@
 
 h1{
     position: relative;
-    top: 50px;
+    top: 60px;
     text-align: center;
     font-family: 'Mada', sans-serif;
     font-weight: 400;
@@ -97,7 +97,8 @@ h1{
 }
 
 .cuttlefish{
-    background-color: salmon;
+    background-image: url(../img/cuttlefish.png);
+    background-repeat: no-repeat;
     display: inline-block;
     position: relative;
     height: 374px;
@@ -110,26 +111,48 @@ h1{
     height: 320px;
     width: 400px;
     border: solid 3px rgb(30,78,131);
+    text-align: center;
+    color: rgb(243,245,247);
 }
 
+
 .hotels{
-    background-color: slategray;
+    background-image: url(../img/Hotel1.jpg);
     display: inline-block;
     position: relative;
     top: -1012px;
-    left: 422px;
+    left: 371px;
+}
+
+.hotels:hover{
+    background-image: url(../img/Hotel2.jpg);
+    background-blend-mode:soft-light;
+    background-color: rgba(30,78,131.1);
+    transition: background-image 0.5s ease;
+    color: rgb(161,219,107);
 }
 
 .dining{
-    background-color: wheat;
+    background-image: url(../img/dining1.jpg);
     display: inline-block;
     position: relative;
     top: -677px;
-    left: 12px;
+    left: -39px;
+}
+
+.dining:hover{
+    background-image: url(../img/dining2.jpg);
+    background-blend-mode:soft-light;
+    background-color: rgba(30,78,131.1);
+    transition: background-image 0.5s ease;
+    color: rgb(161,219,107);
+}
+
 }
 .goto{
     top:-2000px;
 }
+
 /* <!--------------------- End of Body -------------------> */
 
 .footer{

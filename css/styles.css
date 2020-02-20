@@ -17,6 +17,7 @@
     height: 36px;
     background-color: rgba(1,35,63,1);
     position:absolute;
+    z-index: 1;
 }
 
 .logo{
@@ -48,10 +49,9 @@
 
 /* <!--------------------- End of Nav -------------------> */
 
-.carousel{
+.hero{
 height: 600px;
-background-color: rosybrown;
-
+background-color:rgba(1,35,63,1);
 }
 
 /* <!---------------------- End of Main -----------------> */

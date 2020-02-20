@@ -54,6 +54,7 @@
     background-image: url(../img/exhibit-banner.png);
     background-position: bottom;
     background-blend-mode: luminosity;
+    text-shadow: -3px 4px black;
 }
 
 h1{
@@ -84,6 +85,7 @@ h3{
     font-family: 'Mada', sans-serif;
     font-weight: 700;
     font-size: 50px;
+    text-shadow: -3px 4px rgba(32,42,66,.5);
 }
 
 .exhibit-sections{
@@ -162,5 +164,25 @@ h3{
     margin: auto;
     color: rgb(252,253,255);
  }
+
+ .tickets{
+    position:fixed;
+    height: 55px;
+    width: 130px;
+    background-color:rgb(161,219,107);
+    overflow: hidden;
+    padding: 10px 0px 10px 5px;
+    font-family: 'mada', sans-serif;
+    z-index: 1;
+    bottom: 40px;
+  }
+  
+  .tickets:hover{
+    transition: width .5s ease-out;
+    width: 400px;
+    font-size: 30pt;
+    font-weight: 900;
+    color: white
+  }
 /* <!---------------------- End of Section --------------> */
 
