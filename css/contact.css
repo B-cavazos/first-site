@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* <!--------------------- End of Head------------------> */
+
+.body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 36px;
+    background-color: rgba(1,35,63,1);
+    position:absolute;
+}
+
+.logo{
+    height: 36px;
+    float: right;
+}
+
+.nav-list{
+    text-align:center;
+    font-size: 23px;
+}
+
+.nav-list-item{
+    display: inline-block;
+    margin: 0px 90px 0px 90px;
+    width: 150px;
+    height: 32px;
+    color: WHITE;
+    text-align: center;
+    font-family: 'Mada', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.nav-list-item:hover{
+    display: inline-block;
+    color: rgb(161,219,107);
+}
+
+/* <!--------------------- End of Nav -------------------> */
+
+.hero-contact{
+    width: 100%;
+    height:900px;
+    background-color: rgba(163,44,213,.4);
+}
+
+.contact-container{
+    width: 900px;
+    height: 800px;
+    position: relative;
+    background-color: rgb(161,219,107);
+}
+
+.contact-map, .contact-form{
+
+    position: relative;
+    display: inline-block;
+    width: 410px;
+    top: 125px;
+    left: 30%;
+    border: 3px solid rgba(163,44,213,.4);
+}
+
+.contact-map{
+    margin-bottom: 55px;
+    padding: 10px 7px 10px 10px;
+}
+
+.contact-form{
+    left: 500px;
+    top: -260px;
+    padding: 15px 7px 10px 12px;
+}
+
+/* <!--------------------- End of Body -------------------> */
+
+.footer{
+    height: 36px;
+    background-color: rgba(1,35,63,1);
+    color: #f3f5f7;
+    clear: both;
+    text-align: center;
+
+}
+
+.fab{
+    margin-right: 15px;
+    font-size: 1em;
+    color: rgb(161,219,107);
+}
+
+.input, .social, .copy{
+    display: inline-block;
+    height:36px;
+    text-align: center;
+    margin:5px 150px 5px 200px;
+}
+/* <!---------------------- End of Footer -----------------> */
