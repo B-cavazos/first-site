@@ -54,11 +54,12 @@
     margin-top: 0px;
     background-image: url(../img/exhibit-banner.png);
     background-position: bottom;
+    text-shadow: -3px 4px black;
 }
 
 h1{
     position: relative;
-    top: 60px;
+    top: 30px;
     text-align: center;
     font-family: 'Mada', sans-serif;
     font-weight: 400;
@@ -66,6 +67,19 @@ h1{
     letter-spacing: 3px;
     color: white;
 }
+
+h2{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-family: 'Mada', sans-serif;
+    font-weight: 400;
+    font-size: 15pt;
+    letter-spacing: 3px;
+    color: white;
+}
+
+/* <!--------------------- End of Header-------------------->  */
 
 .contact-container{
     width: 100%;
